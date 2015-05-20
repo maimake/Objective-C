@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_make</string>
+	<string>transformer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make){
-    &lt;#code#&gt;
-}];</string>
+	<string>+(NSValueTransformer*) &lt;#property#&gt;JSONTransformer
+{
+    return [&lt;#MTLValueTransformer#&gt;];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB9C0A7E-A043-4F1F-B2E4-3D9C5B1868FF</string>
+	<string>AD4F1A1D-906A-4C9E-B2D8-1C56AC9765BB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mas_make</string>
+	<string>transformer</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Masonry make</string>
+	<string>Mantle Transformer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

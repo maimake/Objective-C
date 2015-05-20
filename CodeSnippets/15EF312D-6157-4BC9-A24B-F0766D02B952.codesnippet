@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_make</string>
+	<string>notipost2</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make){
-    &lt;#code#&gt;
-}];</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#(NSString *)#&gt; object:&lt;#(id)#&gt; userInfo:&lt;#(NSDictionary *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB9C0A7E-A043-4F1F-B2E4-3D9C5B1868FF</string>
+	<string>15EF312D-6157-4BC9-A24B-F0766D02B952</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>mas_make</string>
+	<string>notipost2</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Masonry make</string>
+	<string>Notification Post</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
